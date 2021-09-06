@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+
+main {
+    margin: 150px auto;
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    padding: 20px;
+}
+
+.section-left {
+    min-height: 90%;
+    width: 40%;
+}
+
+.section-left>img {
+    display: block;
+    width: 100%;
+
+}
+
