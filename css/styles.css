@@ -60,21 +60,22 @@ main {
     font-size: 14px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto 30px;
-    line-height: 1.7;    
-}
-
-.education>p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    line-height: 100%;
+    line-height: 1.8;    
 }
 
 .education {
     height: 86.6px;
     width: 452.22px;
+    display: flex;
+    justify-content:center;
 }
 
-
+.education>p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 
 
