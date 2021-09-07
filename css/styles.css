@@ -25,6 +25,7 @@ main {
 }
 
 .section-content {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100%;
     width: 60%;
     background-color: white;
@@ -38,14 +39,14 @@ main {
 
 .name {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
-    letter-spacing:3px;
+    font-size: 38px;
+    letter-spacing: 4px;
     margin: 50px 60px 25px 70px;
 }
 
 .name>b {
     color: rgb(255, 255, 255);
-    margin: 2px -10px;
+    margin: 2px -15px;
 }
 
 .pt {
@@ -57,10 +58,10 @@ main {
 }
 
 .info {
-    font-size: 14px;
+    font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto 30px;
-    line-height: 1.8;    
+    line-height: 2;    
 }
 
 .education {
@@ -75,6 +76,29 @@ main {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.work-experience {
+    margin: 30px 35px;
+    font-size: 22px;
+    letter-spacing:3px
+}
+
+.position {
+    margin: 40px 35px 20px 35px;
+    font-size: 20px;
+    letter-spacing:3px;
+}
+
+.period {
+    margin: 20px 35px;
+    font-size: 20px;
+}
+
+.description {
+    margin: 10px 35px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 
