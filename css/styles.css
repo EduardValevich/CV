@@ -16,7 +16,7 @@ main {
 .section-left {
     min-height: 100%;
     width: 40%;
-    background-color: rgba(241, 232, 214, 0.959);
+    background-color: rgba(243, 237, 224, 0.959);
 }
 
 .section-left>img {
@@ -40,16 +40,27 @@ main {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
     letter-spacing:3px;
-    margin: 60px;
+    margin: 50px 60px 25px 70px;
 }
 
 .name>b {
     color: rgb(255, 255, 255);
+    margin: 2px -10px;
 }
 
-.TP>h2 {
+.pt {
     font-size: 18px;
     font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 60px 40px 60px;
+    letter-spacing:2px
+}
+
+.info {
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 30px;
+    
 }
 
 
