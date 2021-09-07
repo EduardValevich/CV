@@ -27,7 +27,7 @@ main {
 .section-content {
     min-height: 100%;
     width: 60%;
-    background-color: rgb(240, 243, 243);
+    background-color: white;
 }
 
 .section-content>section {
