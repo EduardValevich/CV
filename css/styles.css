@@ -123,12 +123,14 @@ main {
 .B {
     margin: 10px 35px;
     font-size: 18px;
+    opacity: 0.8
 }
 
 .C {
     margin: 10px 35px;
     font-size: 18px;
     line-height: 1.2;
+    opacity: 0.8
 }
 
 
