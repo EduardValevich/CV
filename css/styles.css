@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgba(20, 20, 20, 0.548);
     width: auto;
     height: auto;
 }
@@ -105,15 +105,15 @@ main {
 .contact {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
-    letter-spacing:3px;
 }
 
 .title-1 {
-    margin: 25px 35px;
+    margin: 15px 35px;
+    letter-spacing:3px;
 }
 
 .line {
-    margin: 35px;
+    margin: 0 35px;
     color: white;
 }
 
@@ -136,9 +136,25 @@ main {
     opacity: 0.8
 }
 
-.tel {
-    display: block;
+a {
+    display: flex;
+    font-size: 16px;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 35px;
+}
+
+.sticers {
     width: 20px;
     height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
 }
+
+    
+
 
