@@ -29,6 +29,9 @@ main {
     min-height: 100%;
     width: 60%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .section-content>.education {
@@ -43,7 +46,7 @@ main {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 38px;
     letter-spacing: 4px;
-    margin: 50px 60px 25px 70px;
+    margin: 50px 65px 25px 65px;
 }
 
 .name>b {
@@ -110,7 +113,7 @@ main {
 }
 
 .line {
-    margin: 40px 35px;
+    margin: 35px;
     color: white;
 }
 
@@ -128,9 +131,14 @@ main {
 
 .C {
     margin: 10px 35px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.2;
     opacity: 0.8
 }
 
+.tel {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
 
