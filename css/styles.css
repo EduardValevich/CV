@@ -17,7 +17,6 @@ main {
 .left {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding: 0px 35px;
     height: 70%;
 }
@@ -46,7 +45,6 @@ main {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding: 0px 35px;
     height: 75%;
 }
