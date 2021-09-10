@@ -19,6 +19,7 @@ main {
     flex-direction: column;
     padding: 0px 35px;
     height: 70%;
+    justify-content: space-between;
 }
 
 .section-left {
